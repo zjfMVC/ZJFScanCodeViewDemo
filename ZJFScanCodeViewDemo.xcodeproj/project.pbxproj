@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D6395F4959B540B4DD4B31D /* libPods-ZJFScanCodeViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 306CE3C19BD831FA5ACDACC9 /* libPods-ZJFScanCodeViewDemoUITests.a */; };
+		DC27ED9CF925B10B00A7A934 /* libPods-ZJFScanCodeViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2762CD7CCBCD6B319C9083A7 /* libPods-ZJFScanCodeViewDemoTests.a */; };
 		E671E30323813CAE00A175F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E671E30223813CAE00A175F8 /* AppDelegate.m */; };
 		E671E30623813CAE00A175F8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E671E30523813CAE00A175F8 /* SceneDelegate.m */; };
 		E671E30923813CAE00A175F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E671E30823813CAE00A175F8 /* ViewController.m */; };
@@ -16,6 +18,13 @@
 		E671E31423813CAE00A175F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E671E31323813CAE00A175F8 /* main.m */; };
 		E671E31E23813CAF00A175F8 /* ZJFScanCodeViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E671E31D23813CAF00A175F8 /* ZJFScanCodeViewDemoTests.m */; };
 		E671E32923813CAF00A175F8 /* ZJFScanCodeViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E671E32823813CAF00A175F8 /* ZJFScanCodeViewDemoUITests.m */; };
+		E671E33F2381430000A175F8 /* fengexian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E671E33A2381430000A175F8 /* fengexian@2x.png */; };
+		E671E3402381430000A175F8 /* biankuang1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E671E33B2381430000A175F8 /* biankuang1@2x.png */; };
+		E671E3412381430000A175F8 /* biankuang3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E671E33C2381430000A175F8 /* biankuang3@2x.png */; };
+		E671E3422381430000A175F8 /* biankuang4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E671E33D2381430000A175F8 /* biankuang4@2x.png */; };
+		E671E3432381430000A175F8 /* biankuang2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E671E33E2381430000A175F8 /* biankuang2@2x.png */; };
+		E671E348238143E000A175F8 /* ZJFScanCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E671E347238143E000A175F8 /* ZJFScanCodeView.m */; };
+		E9D1645DEE404BCAEC88116B /* libPods-ZJFScanCodeViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE877D23D3FAF2D0C5C98A9 /* libPods-ZJFScanCodeViewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2762CD7CCBCD6B319C9083A7 /* libPods-ZJFScanCodeViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJFScanCodeViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F53DA2726E69565DFDE302 /* Pods-ZJFScanCodeViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFScanCodeViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFScanCodeViewDemo/Pods-ZJFScanCodeViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		306CE3C19BD831FA5ACDACC9 /* libPods-ZJFScanCodeViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJFScanCodeViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE877D23D3FAF2D0C5C98A9 /* libPods-ZJFScanCodeViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJFScanCodeViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4C820C5A4B3A4D422C9249 /* Pods-ZJFScanCodeViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFScanCodeViewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFScanCodeViewDemoUITests/Pods-ZJFScanCodeViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6FB180710AD4E040C2A84EDE /* Pods-ZJFScanCodeViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFScanCodeViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFScanCodeViewDemo/Pods-ZJFScanCodeViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		752A2DB42D6E3B7DA404A68D /* Pods-ZJFScanCodeViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFScanCodeViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFScanCodeViewDemoTests/Pods-ZJFScanCodeViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6C692F0409DB059CCD72900 /* Pods-ZJFScanCodeViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFScanCodeViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFScanCodeViewDemoUITests/Pods-ZJFScanCodeViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E671E2FE23813CAE00A175F8 /* ZJFScanCodeViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJFScanCodeViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E671E30123813CAE00A175F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E671E30223813CAE00A175F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +71,15 @@
 		E671E32423813CAF00A175F8 /* ZJFScanCodeViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJFScanCodeViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E671E32823813CAF00A175F8 /* ZJFScanCodeViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJFScanCodeViewDemoUITests.m; sourceTree = "<group>"; };
 		E671E32A23813CAF00A175F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E671E33A2381430000A175F8 /* fengexian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fengexian@2x.png"; sourceTree = "<group>"; };
+		E671E33B2381430000A175F8 /* biankuang1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biankuang1@2x.png"; sourceTree = "<group>"; };
+		E671E33C2381430000A175F8 /* biankuang3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biankuang3@2x.png"; sourceTree = "<group>"; };
+		E671E33D2381430000A175F8 /* biankuang4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biankuang4@2x.png"; sourceTree = "<group>"; };
+		E671E33E2381430000A175F8 /* biankuang2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "biankuang2@2x.png"; sourceTree = "<group>"; };
+		E671E346238143E000A175F8 /* ZJFScanCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJFScanCodeView.h; sourceTree = "<group>"; };
+		E671E347238143E000A175F8 /* ZJFScanCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJFScanCodeView.m; sourceTree = "<group>"; };
+		E671E3492381448E00A175F8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EF7C9C55E9798B176A57B0E3 /* Pods-ZJFScanCodeViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFScanCodeViewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFScanCodeViewDemoTests/Pods-ZJFScanCodeViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D1645DEE404BCAEC88116B /* libPods-ZJFScanCodeViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC27ED9CF925B10B00A7A934 /* libPods-ZJFScanCodeViewDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +103,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D6395F4959B540B4DD4B31D /* libPods-ZJFScanCodeViewDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B85EFA07EE52A86AE28917D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE877D23D3FAF2D0C5C98A9 /* libPods-ZJFScanCodeViewDemo.a */,
+				2762CD7CCBCD6B319C9083A7 /* libPods-ZJFScanCodeViewDemoTests.a */,
+				306CE3C19BD831FA5ACDACC9 /* libPods-ZJFScanCodeViewDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFE4646A64F654747C5D31D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FB180710AD4E040C2A84EDE /* Pods-ZJFScanCodeViewDemo.debug.xcconfig */,
+				28F53DA2726E69565DFDE302 /* Pods-ZJFScanCodeViewDemo.release.xcconfig */,
+				752A2DB42D6E3B7DA404A68D /* Pods-ZJFScanCodeViewDemoTests.debug.xcconfig */,
+				EF7C9C55E9798B176A57B0E3 /* Pods-ZJFScanCodeViewDemoTests.release.xcconfig */,
+				C6C692F0409DB059CCD72900 /* Pods-ZJFScanCodeViewDemoUITests.debug.xcconfig */,
+				6F4C820C5A4B3A4D422C9249 /* Pods-ZJFScanCodeViewDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E671E2F523813CAE00A175F8 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +140,8 @@
 				E671E31C23813CAF00A175F8 /* ZJFScanCodeViewDemoTests */,
 				E671E32723813CAF00A175F8 /* ZJFScanCodeViewDemoUITests */,
 				E671E2FF23813CAE00A175F8 /* Products */,
+				BFE4646A64F654747C5D31D3 /* Pods */,
+				B85EFA07EE52A86AE28917D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +158,13 @@
 		E671E30023813CAE00A175F8 /* ZJFScanCodeViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E671E345238143A300A175F8 /* ComView */,
+				E671E338238142CA00A175F8 /* ComResource */,
 				E671E30123813CAE00A175F8 /* AppDelegate.h */,
 				E671E30223813CAE00A175F8 /* AppDelegate.m */,
-				E671E30423813CAE00A175F8 /* SceneDelegate.h */,
-				E671E30523813CAE00A175F8 /* SceneDelegate.m */,
 				E671E30723813CAE00A175F8 /* ViewController.h */,
 				E671E30823813CAE00A175F8 /* ViewController.m */,
-				E671E30A23813CAE00A175F8 /* Main.storyboard */,
-				E671E30D23813CAE00A175F8 /* Assets.xcassets */,
-				E671E30F23813CAE00A175F8 /* LaunchScreen.storyboard */,
-				E671E31223813CAE00A175F8 /* Info.plist */,
-				E671E31323813CAE00A175F8 /* main.m */,
+				E671E3362381423300A175F8 /* Supporting Files */,
 			);
 			path = ZJFScanCodeViewDemo;
 			sourceTree = "<group>";
@@ -137,6 +187,58 @@
 			path = ZJFScanCodeViewDemoUITests;
 			sourceTree = "<group>";
 		};
+		E671E3362381423300A175F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E671E30A23813CAE00A175F8 /* Main.storyboard */,
+				E671E30D23813CAE00A175F8 /* Assets.xcassets */,
+				E671E30F23813CAE00A175F8 /* LaunchScreen.storyboard */,
+				E671E31223813CAE00A175F8 /* Info.plist */,
+				E671E30423813CAE00A175F8 /* SceneDelegate.h */,
+				E671E30523813CAE00A175F8 /* SceneDelegate.m */,
+				E671E31323813CAE00A175F8 /* main.m */,
+				E671E3492381448E00A175F8 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E671E338238142CA00A175F8 /* ComResource */ = {
+			isa = PBXGroup;
+			children = (
+				E671E3442381437500A175F8 /* Images */,
+			);
+			path = ComResource;
+			sourceTree = "<group>";
+		};
+		E671E3392381430000A175F8 /* scan */ = {
+			isa = PBXGroup;
+			children = (
+				E671E33A2381430000A175F8 /* fengexian@2x.png */,
+				E671E33B2381430000A175F8 /* biankuang1@2x.png */,
+				E671E33C2381430000A175F8 /* biankuang3@2x.png */,
+				E671E33D2381430000A175F8 /* biankuang4@2x.png */,
+				E671E33E2381430000A175F8 /* biankuang2@2x.png */,
+			);
+			path = scan;
+			sourceTree = "<group>";
+		};
+		E671E3442381437500A175F8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E671E3392381430000A175F8 /* scan */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E671E345238143A300A175F8 /* ComView */ = {
+			isa = PBXGroup;
+			children = (
+				E671E346238143E000A175F8 /* ZJFScanCodeView.h */,
+				E671E347238143E000A175F8 /* ZJFScanCodeView.m */,
+			);
+			path = ComView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E671E32D23813CAF00A175F8 /* Build configuration list for PBXNativeTarget "ZJFScanCodeViewDemo" */;
 			buildPhases = (
+				F0E73525C36CA886CE018ADA /* [CP] Check Pods Manifest.lock */,
 				E671E2FA23813CAE00A175F8 /* Sources */,
 				E671E2FB23813CAE00A175F8 /* Frameworks */,
 				E671E2FC23813CAE00A175F8 /* Resources */,
@@ -161,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E671E33023813CAF00A175F8 /* Build configuration list for PBXNativeTarget "ZJFScanCodeViewDemoTests" */;
 			buildPhases = (
+				923B98E7B0A1C268A5484DB4 /* [CP] Check Pods Manifest.lock */,
 				E671E31523813CAF00A175F8 /* Sources */,
 				E671E31623813CAF00A175F8 /* Frameworks */,
 				E671E31723813CAF00A175F8 /* Resources */,
@@ -179,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E671E33323813CAF00A175F8 /* Build configuration list for PBXNativeTarget "ZJFScanCodeViewDemoUITests" */;
 			buildPhases = (
+				326C6791D18F4FF7433CDDC1 /* [CP] Check Pods Manifest.lock */,
 				E671E32023813CAF00A175F8 /* Sources */,
 				E671E32123813CAF00A175F8 /* Frameworks */,
 				E671E32223813CAF00A175F8 /* Resources */,
@@ -240,8 +345,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E671E3432381430000A175F8 /* biankuang2@2x.png in Resources */,
+				E671E3402381430000A175F8 /* biankuang1@2x.png in Resources */,
 				E671E31123813CAE00A175F8 /* LaunchScreen.storyboard in Resources */,
 				E671E30E23813CAE00A175F8 /* Assets.xcassets in Resources */,
+				E671E3412381430000A175F8 /* biankuang3@2x.png in Resources */,
+				E671E3422381430000A175F8 /* biankuang4@2x.png in Resources */,
+				E671E33F2381430000A175F8 /* fengexian@2x.png in Resources */,
 				E671E30C23813CAE00A175F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +372,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		326C6791D18F4FF7433CDDC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZJFScanCodeViewDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		923B98E7B0A1C268A5484DB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZJFScanCodeViewDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E73525C36CA886CE018ADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZJFScanCodeViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E671E2FA23813CAE00A175F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,6 +449,7 @@
 				E671E30923813CAE00A175F8 /* ViewController.m in Sources */,
 				E671E30323813CAE00A175F8 /* AppDelegate.m in Sources */,
 				E671E31423813CAE00A175F8 /* main.m in Sources */,
+				E671E348238143E000A175F8 /* ZJFScanCodeView.m in Sources */,
 				E671E30623813CAE00A175F8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,9 +617,12 @@
 		};
 		E671E32E23813CAF00A175F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB180710AD4E040C2A84EDE /* Pods-ZJFScanCodeViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJFScanCodeViewDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJFScanCodeViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +636,12 @@
 		};
 		E671E32F23813CAF00A175F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F53DA2726E69565DFDE302 /* Pods-ZJFScanCodeViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJFScanCodeViewDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJFScanCodeViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,6 +655,7 @@
 		};
 		E671E33123813CAF00A175F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752A2DB42D6E3B7DA404A68D /* Pods-ZJFScanCodeViewDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +675,7 @@
 		};
 		E671E33223813CAF00A175F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7C9C55E9798B176A57B0E3 /* Pods-ZJFScanCodeViewDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +695,7 @@
 		};
 		E671E33423813CAF00A175F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C692F0409DB059CCD72900 /* Pods-ZJFScanCodeViewDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZJFScanCodeViewDemoUITests/Info.plist;
@@ -524,6 +713,7 @@
 		};
 		E671E33523813CAF00A175F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4C820C5A4B3A4D422C9249 /* Pods-ZJFScanCodeViewDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZJFScanCodeViewDemoUITests/Info.plist;
