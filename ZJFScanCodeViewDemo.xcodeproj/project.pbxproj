@@ -9,8 +9,13 @@
 /* Begin PBXBuildFile section */
 		0D6395F4959B540B4DD4B31D /* libPods-ZJFScanCodeViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 306CE3C19BD831FA5ACDACC9 /* libPods-ZJFScanCodeViewDemoUITests.a */; };
 		DC27ED9CF925B10B00A7A934 /* libPods-ZJFScanCodeViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2762CD7CCBCD6B319C9083A7 /* libPods-ZJFScanCodeViewDemoTests.a */; };
+		E602F4912382D818007E51BE /* ScanTypeListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E602F48F2382D818007E51BE /* ScanTypeListVC.m */; };
+		E602F4922382D818007E51BE /* ScanTypeListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E602F4902382D818007E51BE /* ScanTypeListVC.xib */; };
+		E602F4972382DD16007E51BE /* ScanOnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E602F4952382DD16007E51BE /* ScanOnViewController.m */; };
+		E602F4982382DD16007E51BE /* ScanOnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E602F4962382DD16007E51BE /* ScanOnViewController.xib */; };
+		E653D06E23841CC00028DDBE /* ScanOnTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E653D06C23841CC00028DDBE /* ScanOnTableViewVC.m */; };
+		E653D06F23841CC00028DDBE /* ScanOnTableViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E653D06D23841CC00028DDBE /* ScanOnTableViewVC.xib */; };
 		E671E30323813CAE00A175F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E671E30223813CAE00A175F8 /* AppDelegate.m */; };
-		E671E30623813CAE00A175F8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E671E30523813CAE00A175F8 /* SceneDelegate.m */; };
 		E671E30923813CAE00A175F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E671E30823813CAE00A175F8 /* ViewController.m */; };
 		E671E30C23813CAE00A175F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E671E30A23813CAE00A175F8 /* Main.storyboard */; };
 		E671E30E23813CAE00A175F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E671E30D23813CAE00A175F8 /* Assets.xcassets */; };
@@ -53,11 +58,18 @@
 		6FB180710AD4E040C2A84EDE /* Pods-ZJFScanCodeViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFScanCodeViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFScanCodeViewDemo/Pods-ZJFScanCodeViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		752A2DB42D6E3B7DA404A68D /* Pods-ZJFScanCodeViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFScanCodeViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFScanCodeViewDemoTests/Pods-ZJFScanCodeViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6C692F0409DB059CCD72900 /* Pods-ZJFScanCodeViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFScanCodeViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFScanCodeViewDemoUITests/Pods-ZJFScanCodeViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E602F48E2382D818007E51BE /* ScanTypeListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanTypeListVC.h; sourceTree = "<group>"; };
+		E602F48F2382D818007E51BE /* ScanTypeListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanTypeListVC.m; sourceTree = "<group>"; };
+		E602F4902382D818007E51BE /* ScanTypeListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanTypeListVC.xib; sourceTree = "<group>"; };
+		E602F4942382DD16007E51BE /* ScanOnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanOnViewController.h; sourceTree = "<group>"; };
+		E602F4952382DD16007E51BE /* ScanOnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanOnViewController.m; sourceTree = "<group>"; };
+		E602F4962382DD16007E51BE /* ScanOnViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanOnViewController.xib; sourceTree = "<group>"; };
+		E653D06B23841CC00028DDBE /* ScanOnTableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanOnTableViewVC.h; sourceTree = "<group>"; };
+		E653D06C23841CC00028DDBE /* ScanOnTableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanOnTableViewVC.m; sourceTree = "<group>"; };
+		E653D06D23841CC00028DDBE /* ScanOnTableViewVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanOnTableViewVC.xib; sourceTree = "<group>"; };
 		E671E2FE23813CAE00A175F8 /* ZJFScanCodeViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJFScanCodeViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E671E30123813CAE00A175F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E671E30223813CAE00A175F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E671E30423813CAE00A175F8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		E671E30523813CAE00A175F8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		E671E30723813CAE00A175F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E671E30823813CAE00A175F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E671E30B23813CAE00A175F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -133,6 +145,46 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E602F48C2382D790007E51BE /* ScanForExample */ = {
+			isa = PBXGroup;
+			children = (
+				E653D06A23841C9F0028DDBE /* ScanOnTableView */,
+				E602F4932382DCE7007E51BE /* ScanOnViewController */,
+				E602F48D2382D7ED007E51BE /* ScanTypeListVC */,
+			);
+			path = ScanForExample;
+			sourceTree = "<group>";
+		};
+		E602F48D2382D7ED007E51BE /* ScanTypeListVC */ = {
+			isa = PBXGroup;
+			children = (
+				E602F48E2382D818007E51BE /* ScanTypeListVC.h */,
+				E602F48F2382D818007E51BE /* ScanTypeListVC.m */,
+				E602F4902382D818007E51BE /* ScanTypeListVC.xib */,
+			);
+			path = ScanTypeListVC;
+			sourceTree = "<group>";
+		};
+		E602F4932382DCE7007E51BE /* ScanOnViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E602F4942382DD16007E51BE /* ScanOnViewController.h */,
+				E602F4952382DD16007E51BE /* ScanOnViewController.m */,
+				E602F4962382DD16007E51BE /* ScanOnViewController.xib */,
+			);
+			path = ScanOnViewController;
+			sourceTree = "<group>";
+		};
+		E653D06A23841C9F0028DDBE /* ScanOnTableView */ = {
+			isa = PBXGroup;
+			children = (
+				E653D06B23841CC00028DDBE /* ScanOnTableViewVC.h */,
+				E653D06C23841CC00028DDBE /* ScanOnTableViewVC.m */,
+				E653D06D23841CC00028DDBE /* ScanOnTableViewVC.xib */,
+			);
+			path = ScanOnTableView;
+			sourceTree = "<group>";
+		};
 		E671E2F523813CAE00A175F8 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +216,7 @@
 				E671E30223813CAE00A175F8 /* AppDelegate.m */,
 				E671E30723813CAE00A175F8 /* ViewController.h */,
 				E671E30823813CAE00A175F8 /* ViewController.m */,
+				E602F48C2382D790007E51BE /* ScanForExample */,
 				E671E3362381423300A175F8 /* Supporting Files */,
 			);
 			path = ZJFScanCodeViewDemo;
@@ -194,8 +247,6 @@
 				E671E30D23813CAE00A175F8 /* Assets.xcassets */,
 				E671E30F23813CAE00A175F8 /* LaunchScreen.storyboard */,
 				E671E31223813CAE00A175F8 /* Info.plist */,
-				E671E30423813CAE00A175F8 /* SceneDelegate.h */,
-				E671E30523813CAE00A175F8 /* SceneDelegate.m */,
 				E671E31323813CAE00A175F8 /* main.m */,
 				E671E3492381448E00A175F8 /* PrefixHeader.pch */,
 			);
@@ -345,6 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E602F4982382DD16007E51BE /* ScanOnViewController.xib in Resources */,
 				E671E3432381430000A175F8 /* biankuang2@2x.png in Resources */,
 				E671E3402381430000A175F8 /* biankuang1@2x.png in Resources */,
 				E671E31123813CAE00A175F8 /* LaunchScreen.storyboard in Resources */,
@@ -352,7 +404,9 @@
 				E671E3412381430000A175F8 /* biankuang3@2x.png in Resources */,
 				E671E3422381430000A175F8 /* biankuang4@2x.png in Resources */,
 				E671E33F2381430000A175F8 /* fengexian@2x.png in Resources */,
+				E602F4922382D818007E51BE /* ScanTypeListVC.xib in Resources */,
 				E671E30C23813CAE00A175F8 /* Main.storyboard in Resources */,
+				E653D06F23841CC00028DDBE /* ScanOnTableViewVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,11 +500,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E602F4972382DD16007E51BE /* ScanOnViewController.m in Sources */,
+				E653D06E23841CC00028DDBE /* ScanOnTableViewVC.m in Sources */,
 				E671E30923813CAE00A175F8 /* ViewController.m in Sources */,
 				E671E30323813CAE00A175F8 /* AppDelegate.m in Sources */,
 				E671E31423813CAE00A175F8 /* main.m in Sources */,
+				E602F4912382D818007E51BE /* ScanTypeListVC.m in Sources */,
 				E671E348238143E000A175F8 /* ZJFScanCodeView.m in Sources */,
-				E671E30623813CAE00A175F8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,16 +677,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42P9D7SALV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJFScanCodeViewDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJFScanCodeViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Zjf.ZJFScanCodeViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -640,16 +698,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42P9D7SALV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJFScanCodeViewDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJFScanCodeViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Zjf.ZJFScanCodeViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
