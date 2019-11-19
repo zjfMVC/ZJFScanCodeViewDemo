@@ -29,7 +29,7 @@
 
 #pragma mark - 初始化基础数据
 - (void)initData {
-    self.dataSource = @[@"放置在ViewController上",@"放置在tableView头部视图上"];
+    self.dataSource = @[@"放置在tableView头部视图上"];
 }
 
 
