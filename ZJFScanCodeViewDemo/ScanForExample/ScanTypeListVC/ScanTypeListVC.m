@@ -76,12 +76,14 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // 在手指离开的那一刻进行反选中
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if (indexPath.row == 0) {
-        ScanOnViewController *vc = [ScanOnViewController new];
-        [self.navigationController pushViewController:vc animated:YES];
-    } else if (indexPath.row == 1) {
-        ScanOnTableViewVC *vc = [ScanOnTableViewVC new];
-        [self.navigationController pushViewController:vc animated:YES];
-    }
+//    if (indexPath.row == 0) {
+//        ScanOnViewController *vc = [ScanOnViewController new];
+//        [self.navigationController pushViewController:vc animated:YES];
+//    } else if (indexPath.row == 1) {
+//        ScanOnTableViewVC *vc = [ScanOnTableViewVC new];
+//        [self.navigationController pushViewController:vc animated:YES];
+//    }
+    ScanOnTableViewVC *vc = [ScanOnTableViewVC new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 @end
